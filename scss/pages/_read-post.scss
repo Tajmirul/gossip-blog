@@ -1,0 +1,18 @@
+.small-banner{
+	.banner{
+		height: 30rem;
+	}
+}
+.slick-dots{
+	li{
+		button{
+			background: $color-theme;
+			border-radius: 50%;
+		}
+		&.slick-active{
+			button{
+				background-color: darken($color-theme, 20);
+			}
+		}
+	}
+}

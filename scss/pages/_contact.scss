@@ -1,0 +1,19 @@
+.contact-info{
+
+	&-inner{
+		transition: .3s;
+		text-align: center;
+		padding: 3rem;
+
+		&:hover{
+			transform: translatey(-5px);
+			box-shadow: 4px 4px 1rem rgba($color-black, .3)
+		}
+	}
+}
+
+.contact-form{
+	.message{
+		min-height: 12rem;
+	}
+}

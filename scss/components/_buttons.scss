@@ -1,0 +1,32 @@
+.button{
+	&-type-1{
+		color: $color-white;
+		background-color: $color-theme;
+		font-weight: 700;
+		font-size: 1.6rem;
+		display: inline-block;
+		padding: 1rem 2rem;
+		border-radius: 3px;
+		border: 1px solid transparent;
+
+		&:hover{
+			color: $color-theme;
+			background-color: transparent;
+			border-color: $color-theme;
+		}
+	}
+
+	&-type-2{
+		padding: 1rem;
+		font-size: 1.4rem;
+	}
+
+	&-link{
+		color: $color-black;
+		font-size: 1.4rem;
+		text-decoration: underline;
+		&:hover{
+			color: $color-theme;
+		}
+	}
+}

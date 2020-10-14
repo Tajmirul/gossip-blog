@@ -1,0 +1,32 @@
+header{
+
+	.banner{
+		background-image: url('../images/banner-img.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 60rem;
+		background-position: bottom;
+		position: relative;
+
+		&-content{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 96%;
+			max-width: 80rem;
+			border-radius: 10px;
+			background-color: rgba($color-black, .7);
+			h1,p{
+				color: $color-white;
+			}
+			h1{
+				font-size: 30px;
+			}
+			p{
+				line-height: 1.8;
+			}
+		}
+	}
+}
+
